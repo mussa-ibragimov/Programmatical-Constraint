@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_activity_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mussa.ibragimov.programmaticalconstraint.MainActivity"
+    >
+
+    <Button
+        android:id="@+id/main_activity_barrier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="displayConstraintSet"
+        android:text="Barrier"
+        />
+
+    <Button
+        android:id="@+id/main_activity_width_and_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/main_activity_barrier"
+        android:onClick="displayConstraintSet"
+        android:text="Width &amp; Hieght"
+        />
+
+    <Button
+        android:id="@+id/main_Activity_chain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/main_activity_width_and_height"
+        android:onClick="displayConstraintSet"
+        android:text="Chain"
+        />
+
+</android.support.constraint.ConstraintLayout>
