@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ProgrammaticalConstraint</string>
+    <string name="method_name_center">Center</string>
+    <string name="method_name_chain">Chain</string>
+    <string name="method_name_width_amp_height"><![CDATA[Width & Height]]></string>
+    <string name="method_name_barrier">Barrier</string>
 </resources>

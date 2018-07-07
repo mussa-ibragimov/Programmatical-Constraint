@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".BarrierActivity" />
         <activity android:name=".WidthAndHeightActivity" />
-        <activity android:name=".ChainActivity"></activity>
+        <activity android:name=".ChainActivity" />
+        <activity android:name=".CenterActivity"></activity>
     </application>
 
 </manifest>

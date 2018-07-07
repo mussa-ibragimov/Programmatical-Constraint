@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.constraint.Barrier
 import android.support.constraint.ConstraintLayout
 import android.support.constraint.ConstraintSet
+import android.view.View.GONE
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.TextView
 
@@ -35,6 +36,7 @@ fun ConstraintLayout.setViewsBeforeBarrier() {
     beforeSet.connect(textViewTwo.id, ConstraintSet.LEFT, textViewOne.id, ConstraintSet.RIGHT)
     beforeSet.connect(textViewTwo.id, ConstraintSet.TOP, this.id, ConstraintSet.TOP)
     beforeSet.applyTo(this)
+    textViewTwo.visibility = GONE
 }
 
 fun ConstraintLayout.setBarrier() {

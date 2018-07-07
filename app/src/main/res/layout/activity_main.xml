@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         android:onClick="displayConstraintSet"
-        android:text="Barrier"
+        android:text="@string/method_name_barrier"
         />
 
     <Button
@@ -24,16 +24,25 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/main_activity_barrier"
         android:onClick="displayConstraintSet"
-        android:text="Width &amp; Hieght"
+        android:text="@string/method_name_width_amp_height"
         />
 
     <Button
-        android:id="@+id/main_Activity_chain"
+        android:id="@+id/main_activity_chain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/main_activity_width_and_height"
         android:onClick="displayConstraintSet"
-        android:text="Chain"
+        android:text="@string/method_name_chain"
+        />
+
+    <Button
+        android:id="@+id/main_activity_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/main_activity_chain"
+        android:onClick="displayConstraintSet"
+        android:text="@string/method_name_center"
         />
 
 </android.support.constraint.ConstraintLayout>

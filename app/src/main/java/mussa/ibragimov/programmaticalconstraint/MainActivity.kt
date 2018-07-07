@@ -26,8 +26,11 @@ class MainActivity : AppCompatActivity() {
             R.id.main_activity_width_and_height -> {
                 startActivity(Intent(this, WidthAndHeightActivity::class.java))
             }
-            R.id.main_Activity_chain -> {
+            R.id.main_activity_chain -> {
                 startActivity(Intent(this, ChainActivity::class.java))
+            }
+            R.id.main_activity_center -> {
+                startActivity(Intent(this, CenterActivity::class.java))
             }
         }
     }
