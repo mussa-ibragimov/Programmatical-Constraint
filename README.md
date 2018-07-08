@@ -9,8 +9,8 @@ Android constraint layout in code.
 - [x] constrainHeight
 - [X] createHorizontalChain
 - [ ] createVerticalChain
-- [ ] center
-- [ ] constrainCircle
+- [X] center
+- [X] constrainCircle
 - [ ] setGoneMargin
 - [ ] setHorizontalBias
 - [ ] setVerticalBias
