@@ -32,6 +32,9 @@ class MainActivity : AppCompatActivity() {
             R.id.main_activity_center -> {
                 startActivity(Intent(this, CenterActivity::class.java))
             }
+            R.id.main_activity_circle -> {
+                startActivity(Intent(this, CircleActivity::class.java))
+            }
         }
     }
 }

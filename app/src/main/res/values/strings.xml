@@ -4,4 +4,5 @@
     <string name="method_name_chain">Chain</string>
     <string name="method_name_width_amp_height"><![CDATA[Width & Height]]></string>
     <string name="method_name_barrier">Barrier</string>
+    <string name="method_name_circle">Circle</string>
 </resources>

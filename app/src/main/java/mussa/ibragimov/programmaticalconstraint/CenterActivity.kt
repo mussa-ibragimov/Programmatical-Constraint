@@ -15,10 +15,11 @@ class CenterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_center)
         rootView = findViewById(R.id.activity_center_root)
-        val firstView = rootView.setupDummyTextView(250, 250)
 
+        val firstView = rootView.setupDummyTextView(250, 250)
         val secondView = rootView.setupDummyTextView(250, 250)
         val centerView = rootView.setupDummyTextView(250, 250)
+
         val set = ConstraintSet()
         set.clone(rootView)
         set.connect(firstView.id, LEFT, rootView.id, LEFT)
